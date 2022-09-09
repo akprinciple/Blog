@@ -1,0 +1,1 @@
+<img src="{{ url('image/sebastian.jpg') }}" class="max-h-[600px] w-screen object-cover object-center">

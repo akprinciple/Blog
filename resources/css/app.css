@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        @apply bg-white px-5 py-3 shadow-md border rounded;
+    }
+    .btn {
+        @apply py-2 px-5 rounded;
+    }
+    .form-control {
+        @apply w-full px-5 py-2 rounded border outline-none;
+    }
+}
