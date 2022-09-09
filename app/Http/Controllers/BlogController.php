@@ -43,7 +43,7 @@ class BlogController extends Controller
         if($blog) return redirect('/blog')->with('success', 'Post has been successfully created');
         // return redirect('/blog')->with('success', 'Post has been successfully created');
         // return back()->withErrors('Error Creating Article');
-        return back()->withErrors(['failed' => 'Error Creating Article'])->onlyInput('failed');
+        return back()->withErrors('Error Creating Article');
     }
 
     /**

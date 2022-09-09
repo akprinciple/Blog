@@ -10,9 +10,9 @@
 
     <div class="max-w-2xl mx-auto">
         <h1 class="text-2xl font-semibold">Create new blog post</h1>
-        @error('failed')
+        {{-- @error('failed')
         <div class="text-red-500">{{ $message }}</div>
-        @enderror
+        @enderror --}}
         <form action="{{ route('blog.store') }}" method="post">
             @csrf
             <div class="my-2">
